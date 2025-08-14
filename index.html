@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Meta & SEO avançado (edite textos e URLs abaixo) -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Espaço Aurora Feminina Porto Verde - Realce sua beleza única hoje</title>
+  <meta name="description" content="Espaço Aurora Feminina Porto Verde — cortes, coloração, estética, unhas e tratamentos. Agende pelo WhatsApp.">
+  <meta name="keywords" content="salão de beleza, Aurora Feminina Porto Verde, corte, coloração, mechas, estética, unhas, maquiagem">
+  <meta name="author" content="Aurora Feminina Porto Verde">
+  <link rel="canonical" href="https://seudominio.com/">
+  <meta property="og:title" content="Espaço Aurora Feminina Porto Verde - Realce sua beleza única hoje" />
+  <meta property="og:description" content="Transforme-se com estilo e cuidado." />
+  <meta property="og:image" content="imagens/hero.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://seudominio.com/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="imagens/hero.jpg" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="antialiased bg-[#F5F5DC] text-[#601749]">
+  <!-- Troque a imagem /imagens/hero.png pela sua hero original -->
+  <header class="fixed w-full top-0 left-0 z-50 bg-white/60 backdrop-blur-md">
+    <div class="max-w-6xl mx-auto flex items-center justify-between p-4">
+      <a href="index.html" aria-label="Aurora Feminina Porto Verde">
+        <!-- Substitua /imagens/logoNvo.jpg pelo seu arquivo de logo -->
+        <img src="imagens/logo_au.png" alt="logo salão beleza" class="h-12">
+      </a>
+      <nav class="hidden md:flex gap-6 items-center font-medium text-sm">
+        <a href="index.html" class="hover:underline">Início</a>
+        <a href="pages/servicos.html" class="hover:underline">Serviços</a>
+        <a href="pages/blog.html" class="hover:underline">Mini Blog</a>
+        <a href="pages/sobre.html" class="hover:underline">Sobre</a>
+        <a href="pages/contato.html" class="hover:underline">Contato</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/55519996142308?text=Ol%C3%A1%20Aurora Feminina%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank"
+           class="bg-[#25D366] text-white px-4 py-2 rounded-full font-semibold shadow btn-premium">Agendar</a>
+        <button id="btnMenu" class="md:hidden p-2 text-xl" aria-label="Abrir menu"><i class="fas fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Drawer mobile -->
+  <div class="mobile-drawer">
+    <div class="mobile-panel">
+      <div class="flex items-center justify-between mb-6">
+        <span class="font-semibold">Menu</span>
+        <button id="closeMenu" aria-label="Fechar menu"><i class="fas fa-times text-xl"></i></button>
+      </div>
+      <nav class="flex flex-col gap-4 text-sm">
+        <a href="index.html">Início</a>
+        <a href="pages/servicos.html">Serviços</a>
+        <a href="pages/blog.html">Mini Blog</a>
+        <a href="pages/sobre.html">Sobre</a>
+        <a href="pages/contato.html">Contato</a>
+      </nav>
+    </div>
+  </div>
+
+  <section id="hero" class="pt-20">
+    <div class="relative hero-section min-h-screen flex items-center justify-center p-8 text-center rounded-b-3xl overflow-hidden"
+         style="background-image:url('imagens/hero.png'); background-size:cover; background-position:center;">
+      <div class="absolute inset-0 bg-black/40"></div>
+      <div class="relative z-10 text-white max-w-3xl">
+        <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 leading-tight" style="font-family: 'Playfair Display', serif;">
+          Aurora Feminina Porto Verde
+        </h1>
+        <p class="text-lg sm:text-xl md:text-2xl mb-8 font-light">Transforme-se com estilo e carinho. Sinta-se linda e confiante.</p>
+        <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+          <!-- Botões com hovers elegantes -->
+          <a id="heroAgendar" href="#agendamento-final"
+             class="bg-gradient-to-r from-[#D4AF37] to-[#c49b2d] text-white px-8 py-3 rounded-full font-semibold shadow-lg btn-premium">
+             Agende seu momento
+          </a>
+          <a href="pages/servicos.html"
+             class="px-8 py-3 rounded-full font-semibold btn-outline-gold">Ver serviços</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="max-w-6xl mx-auto p-6">
+    <section class="mt-12 text-center">
+      <h2 class="text-3xl font-bold mb-3">Seu espaço de confiança para transformações</h2>
+      <p class="text-gray-600">Cortes, coloração, estética facial e corporal, unhas, micropigmentação e muito mais — tudo com a técnica e carinho que você merece.</p>
+    </section>
+
+    <section class="mt-12 grid md:grid-cols-3 gap-6">
+      <!-- Troque as imagens mantendo os nomes para agilizar -->
+      <article class="bg-white rounded-3xl p-6 shadow-lg text-center">
+        <img src="imagens/mechas2.jpg" alt="Cortes" class="mx-auto h-40 w-full object-cover rounded-xl mb-4">
+        <h3 class="font-semibold text-lg">Cortes & Penteados</h3>
+        <p class="text-sm text-gray-600 mt-2">Cortes que valorizam seu rosto e estilo.</p>
+      </article>
+      <article class="bg-white rounded-3xl p-6 shadow-lg text-center">
+        <img src="imagens/colorhair.png" alt="Coloração" class="mx-auto h-40 w-full object-cover rounded-xl mb-4">
+        <h3 class="font-semibold text-lg">Coloração & Mechas</h3>
+        <p class="text-sm text-gray-600 mt-2">Técnicas modernas para a cor perfeita.</p>
+      </article>
+      <article class="bg-white rounded-3xl p-6 shadow-lg text-center">
+        <img src="imagens/massagem.jpg" alt="Massagem" class="mx-auto h-40 w-full object-cover rounded-xl mb-4">
+        <h3 class="font-semibold text-lg">Massagem</h3>
+        <p class="text-sm text-gray-600 mt-2">Relaxe e renove sua aura.</p>
+      </article>
+      <article class="bg-white rounded-3xl p-6 shadow-lg text-center">
+        <img src="imagens/unha_header.jpg" alt="Nails" class="mx-auto h-40 w-full object-cover rounded-xl mb-4">
+        <h3 class="font-semibold text-lg">Nails Designer</h3>
+        <p class="text-sm text-gray-600 mt-2">Criatividade e sofisticação para suas mãos.</p>
+      </article>
+      <article class="bg-white rounded-3xl p-6 shadow-lg text-center">
+        <img src="imagens/make.png" alt="Maquiagem" class="mx-auto h-40 w-full object-cover rounded-xl mb-4">
+        <h3 class="font-semibold text-lg">Make para todas as ocasiões</h3>
+        <p class="text-sm text-gray-600 mt-2">Arrase em qualquer evento.</p>
+      </article>
+      <article class="bg-white rounded-3xl p-6 shadow-lg text-center">
+        <img src="imagens/depilacao.png" alt="Depilação" class="mx-auto h-40 w-full object-cover rounded-xl mb-4">
+        <h3 class="font-semibold text-lg">Depilação</h3>
+        <p class="text-sm text-gray-600 mt-2">Técnicas suaves para pele lisinha.</p>
+      </article>
+    </section>
+
+    <section class="mt-12">
+      <h2 class="text-2xl font-bold mb-6">Depoimentos</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-3xl p-6 shadow testimonial-card text-center">
+          <img src="imagens/feed1.jpg" alt="Cliente 1" class="testimonial-img cursor-pointer">
+          <p class="italic text-gray-700">"Não cuidam só da beleza: ainda te mimam!"</p>
+          <p class="font-semibold mt-3">— @cliente1</p>
+        </div>
+        <div class="bg-white rounded-3xl p-6 shadow testimonial-card text-center">
+          <img src="imagens/feed2.jpg" alt="Cliente 2" class="testimonial-img cursor-pointer">
+          <p class="italic text-gray-700">"Unhas da semana: pretinho básico que amo."</p>
+          <p class="font-semibold mt-3">— @cliente2</p>
+        </div>
+        <div class="bg-white rounded-3xl p-6 shadow testimonial-card text-center">
+          <img src="imagens/feed3.jpg" alt="Cliente 3" class="testimonial-img cursor-pointer">
+          <p class="italic text-gray-700">"Profissionais incríveis. Resultado impecável."</p>
+          <p class="font-semibold mt-3">— @cliente3</p>
+        </div>
+      </div>
+    </section>
+
+    <div id="image-modal" class="modal" aria-hidden="true">
+      <div class="modal-content">
+        <span class="close-btn" aria-label="Fechar modal">&times;</span>
+        <img id="modal-image" src="" alt="Imagem ampliada">
+      </div>
+    </div>
+
+    <section class="mt-12">
+      <h2 class="text-2xl font-bold mb-6">Transformações que inspiram</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <img src="imagens/portifolio1.jpg" alt="Portfólio 1" class="w-full h-48 object-cover rounded-2xl portfolio-image">
+        <img src="imagens/portifolio2.jpg" alt="Portfólio 2" class="w-full h-48 object-cover rounded-2xl portfolio-image">
+        <img src="imagens/portifolio3.jpg" alt="Portfólio 3" class="w-full h-48 object-cover rounded-2xl portfolio-image">
+        <img src="imagens/portifolio4.jpg" alt="Portfólio 4" class="w-full h-48 object-cover rounded-2xl portfolio-image">
+      </div>
+    </section>
+
+    <section id="agendamento-final" class="mt-16 text-center">
+      <div class="bg-white rounded-3xl p-8 shadow-lg">
+        <h2 class="text-3xl font-bold">Pronta para se apaixonar por você mesma?</h2>
+        <p class="text-gray-600 mt-3 mb-6">Garanta seu horário e comece sua jornada de beleza e confiança conosco.</p>
+        <a href="https://wa.me/55519996142308?text=Ol%C3%A1%20Aurora Feminina!%20Quero%20agendar%20um%20hor%C3%A1rio." target="_blank"
+           class="bg-[#D4AF37] px-10 py-4 rounded-full text-white font-bold btn-premium">Agendar via WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mt-16 bg-[#111827] text-[#E2E8F0] py-10">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-6 items-start px-6">
+      <div>
+        <h3 class="text-xl font-bold text-[#D4AF37]">Contato</h3>
+        <p class="mt-2">Av. Zero Hora, 1100 - Sala 108 - Porto Verde, Alvorada - RS</p>
+        <p class="mt-1">Telefone: <a href="tel:+5551996142308" class="underline">(+55) 51 99614-2308</a></p>
+        <p class="mt-1">Horário: Seg–Sáb 09:00–19:00</p>
+        <p class="mt-1"><a href="https://www.google.com/maps" target="_blank" class="underline">Ver no Google Maps</a></p>
+      </div>
+      <div class="text-center">
+        <h3 class="text-xl font-bold text-[#D4AF37]">Siga-nos</h3>
+        <div class="flex justify-center gap-4 mt-4 text-2xl">
+          <a href="https://www.instagram.com/nadin_portoverde/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://linktr.ee/Aurora Femininacabeleireirosestetica" target="_blank" aria-label="Linktree"><i class="fas fa-link"></i></a>
+        </div>
+        <p class="mt-4 text-sm text-gray-400">Linktree e Instagram do cliente incluídos.</p>
+      </div>
+      <div class="text-right">
+        <h3 class="text-xl font-bold text-[#D4AF37]">Aurora Feminina Porto Verde</h3>
+        <p class="mt-2">Transformando beleza em poder!</p>
+        <p class="mt-6 text-sm text-gray-400">&copy; 2025 Espaço Aurora Feminina Porto Verde</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/scriptmodal.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/beforeafter.js"></script>
+</body>
+</html>
